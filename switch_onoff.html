@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Link for mobile devices -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css" >
+     <title>The Form</title>
+     <script>
+        function wiadomosc(message) {
+          alert(message);
+        }
+     </script>
+  </head>
+  <body>
+
+    <h1>Jak sie masz?</h1>
+
+    <div id="content">
+
+    </div>
+
+    <div class="button-area" onclick="wiadomosc('Sie ma baranie!')">
+      <span class="on"><strong>ON</strong></span>
+      <span class="off"><strong>OFF</strong></span>
+      <span id="wlacznik" class="circle"></span>
+    </div>
+
+  </body>
+  <script src="js/jquery.js"></script>
+  <script src="js/app.js"></script>
+</html>
